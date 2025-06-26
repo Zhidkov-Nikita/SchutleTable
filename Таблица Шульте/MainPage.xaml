@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Таблица_Шульте.MainPage">
+
+
+    <StackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Text="Новая игра" Grid.Row="0" Grid.Column="2" ScaleX="1.2" FontSize="Small" Clicked="OnButtonG"></Button>
+            <Label x:Name="LastRecord" Grid.Row="0" Grid.Column="0" FontFamily="Arial" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="Default" TextTransform="Uppercase"></Label>
+            <Label x:Name ="Timing" Text="Время: 0" Grid.Row="1" Grid.Column="1" FontFamily="Arial" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Large" TextTransform="Uppercase"></Label>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button x:Name="But00" Grid.Row="0" Grid.Column="0" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But01" Grid.Row="0" Grid.Column="1" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But02" Grid.Row="0" Grid.Column="2" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But03" Grid.Row="0" Grid.Column="3" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But04" Grid.Row="0" Grid.Column="4" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But10" Grid.Row="1" Grid.Column="0" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But11" Grid.Row="1" Grid.Column="1" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But12" Grid.Row="1" Grid.Column="2" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But13" Grid.Row="1" Grid.Column="3" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But14" Grid.Row="1" Grid.Column="4" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But20" Grid.Row="2" Grid.Column="0" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But21" Grid.Row="2" Grid.Column="1" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But22" Grid.Row="2" Grid.Column="2" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But23" Grid.Row="2" Grid.Column="3" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But24" Grid.Row="2" Grid.Column="4" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But30" Grid.Row="3" Grid.Column="0" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But31" Grid.Row="3" Grid.Column="1" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But32" Grid.Row="3" Grid.Column="2" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But33" Grid.Row="3" Grid.Column="3" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But34" Grid.Row="3" Grid.Column="4" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But40" Grid.Row="4" Grid.Column="0" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But41" Grid.Row="4" Grid.Column="1" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But42" Grid.Row="4" Grid.Column="2" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But43" Grid.Row="4" Grid.Column="3" Clicked="OnButtonClicked"></Button>
+            <Button x:Name="But44" Grid.Row="4" Grid.Column="4" Clicked="OnButtonClicked"></Button>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
